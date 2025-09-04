@@ -6,6 +6,7 @@ void main(){
     printf("Separated digits are:\n");
     for(;i>0;i=i/10){
         n=i%10;
-        printf("%d\n",n);
+        printf("%d",n);
     }
+
 }
